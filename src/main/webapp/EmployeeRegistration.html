@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> 
+</head>
+<body>
+<form action="addemp" class="container mt-3">
+  <div class="form-group mt-3" >
+    <input type="text" class="form-control" id="t1" name="teno" placeholder="Enter Employee Number">
+  </div>
+  <div class="form-group mt-3">
+    <input type="text" class="form-control" id="t2" name="tename" placeholder="Enter Employee Name">
+  </div>
+   <div class="form-group mt-3">
+    <input type="text" class="form-control" id="t3" name="tsal" aria-describedby="emailHelp" placeholder="Enter Employee Salary">
+   </div>
+  <div class="mt-3">
+  Work Location <select name="scity">
+	  <option value="Noida">Noida</option>
+	  <option value="Delhi">Delhi</option>
+	  <option value="Mumbai">Mumbai</option> 
+	  <option value="Pune">Pune</option>
+	  <option value="Bengaluru">Bengaluru</option>
+	  <option value="Hyderabad">Hyderabad</option> 
+	   <option value="Chennai">Chennai</option> 
+  </select>
+  </div>
+  
+  <div class="mt-3">
+    <input type="radio" name="rgen" value="male"> Male
+    <input type="radio" name="rgen" value="female"> Female
+  </div>
+  
+  <div class="mt-3">
+  Department <select name="sdept">
+	  <option value="it">IT</option>
+	  <option value="finance">Finance</option>
+	  <option value="marketing">Marketing</optionvalue="it"> 
+  </select>
+  </div>
+  
+  <div class="mt-3">
+  Date Of Birth 
+	 <input type="date"  name="ddob">
+  </div>
+  
+  <button type="submit" class="btn btn-primary mt-3">Submit</button>
+</form>
+		
+</body>
+</html>
